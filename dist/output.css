@@ -654,6 +654,10 @@ video {
   height: 5rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-8 {
   width: 2rem;
 }
@@ -915,6 +919,11 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-6 {
