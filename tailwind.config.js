@@ -6,6 +6,8 @@ module.exports = {
     "./index.html"
   ],
   theme: {
+    container:{center:true
+    },
     colors:{
       transparent: 'transparent',
         sky: colors.sky,
